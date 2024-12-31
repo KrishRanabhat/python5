@@ -1,4 +1,4 @@
-import qrcode
+import qrcode 
 
 #Data to be encoded in QR code
 
@@ -25,5 +25,5 @@ img = qr.make_image(fill_color='Black', back_color='white')
 # Save the image
 img.save("qrcode_example.png")
 
-#Display the image
+#Display the image of qr code
 img.show()
